@@ -4,7 +4,7 @@
 47/home/rijul/smolvlm/SmolVLMNotes/jest.config.js1747388935467838766 0
 41/home/rijul/smolvlm/SmolVLMNotes/index.js1747388935466838728 0
 48/home/rijul/smolvlm/SmolVLMNotes/.watchmanconfig1747388935462838578 0
-50/home/rijul/smolvlm/SmolVLMNotes/babel.config.json1747390849292212483 0
+48/home/rijul/smolvlm/SmolVLMNotes/babel.config.js1747390308727039849 0
 100/home/rijul/smolvlm/SmolVLMNotes/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/README.md1747389209981991224 0
 99/home/rijul/smolvlm/SmolVLMNotes/node_modules/@msgpackr-extract/msgpackr-extract-linux-x64/index.js1747389209980991188 0
 63/home/rijul/smolvlm/SmolVLMNotes/node_modules/@msgpackr-extract1747390816608818535 1
@@ -17111,7 +17111,7 @@
 68/home/rijul/smolvlm/SmolVLMNotes/node_modules/lodash/_setToString.js1747389217002247186 0
 67/home/rijul/smolvlm/SmolVLMNotes/node_modules/node-releases/LICENSE1747389216510229251 0
 81/home/rijul/smolvlm/SmolVLMNotes/node_modules/eslint/lib/config/rule-validator.js1747389218485301239 0
-62/home/rijul/smolvlm/SmolVLMNotes/dist/SmolVLMNotes.681b95cc.js1747390866637078594 0
+62/home/rijul/smolvlm/SmolVLMNotes/dist/SmolVLMNotes.681b95cc.js1747390374857358493 0
 89/home/rijul/smolvlm/SmolVLMNotes/node_modules/@babel/traverse/lib/path/lib/hoister.js.map1747389220204363886 0
 106/home/rijul/smolvlm/SmolVLMNotes/node_modules/@parcel/node-resolver-core/node_modules/semver/bin/semver.js1747389221209400508 0
 95/home/rijul/smolvlm/SmolVLMNotes/node_modules/react-native/Libraries/Image/ImageResizeMode.d.ts1747389221639416176 0
@@ -17152,7 +17152,7 @@
 101/home/rijul/smolvlm/SmolVLMNotes/node_modules/react-native/Libraries/Network/RCTDataRequestHandler.mm1747389221225401091 0
 94/home/rijul/smolvlm/SmolVLMNotes/node_modules/eslint-plugin-ft-flow/dist/rules/booleanStyle.js1747389218053285494 0
 106/home/rijul/smolvlm/SmolVLMNotes/node_modules/react-native/ReactCommon/jsinspector-modern/TracingAgent.cpp1747389217452263588 0
-37/home/rijul/smolvlm/SmolVLMNotes/dist1747390866649104859 1
+37/home/rijul/smolvlm/SmolVLMNotes/dist1747390374861358633 1
 107/home/rijul/smolvlm/SmolVLMNotes/node_modules/@parcel/package-manager/test/fixtures/packages/a/package.json1747389215450190610 0
 67/home/rijul/smolvlm/SmolVLMNotes/node_modules/lodash/lastIndexOf.js1747389217108251049 0
 78/home/rijul/smolvlm/SmolVLMNotes/node_modules/collect-v8-coverage/package.json1747389218272293476 0
@@ -17561,7 +17561,7 @@
 99/home/rijul/smolvlm/SmolVLMNotes/node_modules/@babel/helpers/lib/helpers/awaitAsyncGenerator.js.map1747389220978392091 0
 70/home/rijul/smolvlm/SmolVLMNotes/node_modules/is-weakmap/tsconfig.json1747389217251256262 0
 102/home/rijul/smolvlm/SmolVLMNotes/node_modules/@types/react-native/Libraries/Image/ImageResizeMode.d.ts1747390144311267818 0
-32/home/rijul/smolvlm/SmolVLMNotes1747390859563854954 1
+32/home/rijul/smolvlm/SmolVLMNotes1747389745257191439 1
 107/home/rijul/smolvlm/SmolVLMNotes/node_modules/@parcel/graph/test/integration/adjacency-list-shared-array.js1747389212741091840 0
 59/home/rijul/smolvlm/SmolVLMNotes/node_modules/@parcel/graph1747389212747092059 1
 98/home/rijul/smolvlm/SmolVLMNotes/node_modules/react-native/React/Fabric/Surface/RCTFabricSurface.h1747389219233328500 0
@@ -17843,7 +17843,7 @@
 68/home/rijul/smolvlm/SmolVLMNotes/node_modules/dotenv-expand/tea.yaml1747389210234000415 0
 70/home/rijul/smolvlm/SmolVLMNotes/node_modules/shebang-command/index.js1747389215956209056 0
 81/home/rijul/smolvlm/SmolVLMNotes/node_modules/es-abstract/2017/thisNumberValue.js1747389219358333055 0
-66/home/rijul/smolvlm/SmolVLMNotes/dist/SmolVLMNotes.681b95cc.js.map1747390866649104859 0
+66/home/rijul/smolvlm/SmolVLMNotes/dist/SmolVLMNotes.681b95cc.js.map1747390374860358598 0
 94/home/rijul/smolvlm/SmolVLMNotes/node_modules/pure-rand/lib/distribution/internals/ArrayInt.js1747389216243219518 0
 102/home/rijul/smolvlm/SmolVLMNotes/node_modules/scheduler/cjs/scheduler-unstable_post_task.production.js1747389215971209603 0
 94/home/rijul/smolvlm/SmolVLMNotes/node_modules/@istanbuljs/load-nyc-config/node_modules/p-limit1747389222212437054 1
@@ -19137,7 +19137,7 @@
 100/home/rijul/smolvlm/SmolVLMNotes/node_modules/@babel/types/lib/definitions/deprecated-aliases.js.map1747389221052394787 0
 118/home/rijul/smolvlm/SmolVLMNotes/node_modules/@typescript-eslint/eslint-plugin/dist/rules/no-restricted-imports.js.map1747389219172326277 0
 96/home/rijul/smolvlm/SmolVLMNotes/node_modules/eslint/node_modules/eslint-scope/lib/definition.js1747389222003429439 0
-48/home/rijul/smolvlm/SmolVLMNotes/dist/index.html1747390860154368485 0
+48/home/rijul/smolvlm/SmolVLMNotes/dist/index.html1747390374855358423 0
 73/home/rijul/smolvlm/SmolVLMNotes/node_modules/@types/node/stream/web.d.ts1747389219085323106 0
 84/home/rijul/smolvlm/SmolVLMNotes/node_modules/es-abstract/2015/TestIntegrityLevel.js1747389219338332327 0
 93/home/rijul/smolvlm/SmolVLMNotes/node_modules/es-abstract/2024/GetPrototypeFromConstructor.js1747389218583304811 0

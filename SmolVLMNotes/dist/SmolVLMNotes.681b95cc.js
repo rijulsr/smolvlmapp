@@ -171,10 +171,10 @@ import * as __parcelExternal10 from "react-native-web/dist/cjs/exports/View";
       });
     }
   }
-})({"dOGyZ":[function(require,module,exports,__globalThis) {
+})({"euBBm":[function(require,module,exports,__globalThis) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
-var HMR_SERVER_PORT = 1234;
+var HMR_PORT = 38403;
+var HMR_SERVER_PORT = 38403;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4345934e17270304";
 var HMR_USE_SSE = false;
@@ -832,7 +832,7 @@ var _default = exports.default = App;
 },{"1e1a96014f6a2323":"@babel/runtime/helpers/interopRequireDefault","39dc25d3ba83b6da":"react","35fb6cf91321f785":"react-native/Libraries/NewAppScreen","d2111c58a366f938":"react/jsx-runtime","709d0b1b662f8b21":"react-native-web/dist/cjs/exports/ScrollView","36a3e9a84eaef43e":"react-native-web/dist/cjs/exports/StatusBar","75d98de699bd7bec":"react-native-web/dist/cjs/exports/StyleSheet","3c24dbd9bb1fc663":"react-native-web/dist/cjs/exports/Text","34965cb57b059890":"react-native-web/dist/cjs/exports/useColorScheme","a407e7a47dc51b14":"react-native-web/dist/cjs/exports/View"}],"4fhln":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"SmolVLMNotes\",\"displayName\":\"SmolVLMNotes\"}");
 
-},{}]},["dOGyZ","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native-web/dist/cjs/exports/AppRegistry": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,"react-native-web/dist/cjs/exports/ScrollView": __parcelExternal5,"react-native-web/dist/cjs/exports/StatusBar": __parcelExternal6,"react-native-web/dist/cjs/exports/StyleSheet": __parcelExternal7,"react-native-web/dist/cjs/exports/Text": __parcelExternal8,"react-native-web/dist/cjs/exports/useColorScheme": __parcelExternal9,"react-native-web/dist/cjs/exports/View": __parcelExternal10,})
+},{}]},["euBBm","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native-web/dist/cjs/exports/AppRegistry": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,"react-native-web/dist/cjs/exports/ScrollView": __parcelExternal5,"react-native-web/dist/cjs/exports/StatusBar": __parcelExternal6,"react-native-web/dist/cjs/exports/StyleSheet": __parcelExternal7,"react-native-web/dist/cjs/exports/Text": __parcelExternal8,"react-native-web/dist/cjs/exports/useColorScheme": __parcelExternal9,"react-native-web/dist/cjs/exports/View": __parcelExternal10,})
 let {} = parcelRequire875f("6m3dP");
 export {};
 
