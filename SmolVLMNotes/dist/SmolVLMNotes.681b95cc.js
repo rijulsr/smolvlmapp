@@ -1,8 +1,14 @@
 import * as __parcelExternal0 from "@babel/runtime/helpers/interopRequireDefault";
-import * as __parcelExternal1 from "react-native";
+import * as __parcelExternal1 from "react-native-web/dist/cjs/exports/AppRegistry";
 import * as __parcelExternal2 from "react";
 import * as __parcelExternal3 from "react-native/Libraries/NewAppScreen";
 import * as __parcelExternal4 from "react/jsx-runtime";
+import * as __parcelExternal5 from "react-native-web/dist/cjs/exports/ScrollView";
+import * as __parcelExternal6 from "react-native-web/dist/cjs/exports/StatusBar";
+import * as __parcelExternal7 from "react-native-web/dist/cjs/exports/StyleSheet";
+import * as __parcelExternal8 from "react-native-web/dist/cjs/exports/Text";
+import * as __parcelExternal9 from "react-native-web/dist/cjs/exports/useColorScheme";
+import * as __parcelExternal10 from "react-native-web/dist/cjs/exports/View";
 // modules are defined as an array
 // [ module function, map of requires ]
 //
@@ -165,10 +171,10 @@ import * as __parcelExternal4 from "react/jsx-runtime";
       });
     }
   }
-})({"1V00T":[function(require,module,exports,__globalThis) {
+})({"dOGyZ":[function(require,module,exports,__globalThis) {
 var HMR_HOST = null;
-var HMR_PORT = 41511;
-var HMR_SERVER_PORT = 41511;
+var HMR_PORT = 1234;
+var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4345934e17270304";
 var HMR_USE_SSE = false;
@@ -672,24 +678,36 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"6m3dP":[function(require,module,exports,__globalThis) {
 var _interopRequireDefault = require("b6efd283c65de705");
-var _reactNative = require("5b3abbd56e2b1941");
+var _AppRegistry = _interopRequireDefault(require("afd9367beaa9341e"));
 var _App = _interopRequireDefault(require("53a5538ded9bb502"));
 var _app = require("1efe7dbcdb73507b");
-_reactNative.AppRegistry.registerComponent(_app.name, function() {
+console.log('Initializing app with name:', _app.name);
+// Register the app
+_AppRegistry.default.registerComponent(_app.name, function() {
     return _App.default;
 });
-_reactNative.AppRegistry.runApplication(_app.name, {
-    rootTag: document.getElementById('root')
+// Run the app
+var rootTag = document.getElementById('root');
+console.log('Root element:', rootTag);
+if (!rootTag) console.error('Root element not found!');
+else _AppRegistry.default.runApplication(_app.name, {
+    rootTag: rootTag,
+    initialProps: {}
 });
 
-},{"b6efd283c65de705":"@babel/runtime/helpers/interopRequireDefault","5b3abbd56e2b1941":"react-native","53a5538ded9bb502":"cmBae","1efe7dbcdb73507b":"4fhln"}],"cmBae":[function(require,module,exports,__globalThis) {
+},{"b6efd283c65de705":"@babel/runtime/helpers/interopRequireDefault","53a5538ded9bb502":"cmBae","1efe7dbcdb73507b":"4fhln","afd9367beaa9341e":"react-native-web/dist/cjs/exports/AppRegistry"}],"cmBae":[function(require,module,exports,__globalThis) {
 var _interopRequireDefault = require("1e1a96014f6a2323");
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("39dc25d3ba83b6da"));
-var _reactNative = require("57c98a0f153e0bc4");
+var _ScrollView = _interopRequireDefault(require("709d0b1b662f8b21"));
+var _StatusBar = _interopRequireDefault(require("36a3e9a84eaef43e"));
+var _StyleSheet = _interopRequireDefault(require("75d98de699bd7bec"));
+var _Text = _interopRequireDefault(require("3c24dbd9bb1fc663"));
+var _useColorScheme = _interopRequireDefault(require("34965cb57b059890"));
+var _View = _interopRequireDefault(require("a407e7a47dc51b14"));
 var _NewAppScreen = require("35fb6cf91321f785");
 var _jsxRuntime = require("d2111c58a366f938");
 var _jsxFileName = "/home/rijul/smolvlm/SmolVLMNotes/App.tsx";
@@ -700,11 +718,11 @@ var _jsxFileName = "/home/rijul/smolvlm/SmolVLMNotes/App.tsx";
  * @format
  */ function Section(_ref) {
     var children = _ref.children, title = _ref.title;
-    var isDarkMode = (0, _reactNative.useColorScheme)() === 'dark';
-    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactNative.View, {
+    var isDarkMode = (0, _useColorScheme.default)() === 'dark';
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_View.default, {
         style: styles.sectionContainer,
         children: [
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactNative.Text, {
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Text.default, {
                 style: [
                     styles.sectionTitle,
                     {
@@ -713,7 +731,7 @@ var _jsxFileName = "/home/rijul/smolvlm/SmolVLMNotes/App.tsx";
                 ],
                 children: title
             }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactNative.Text, {
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Text.default, {
                 style: [
                     styles.sectionDescription,
                     {
@@ -726,48 +744,42 @@ var _jsxFileName = "/home/rijul/smolvlm/SmolVLMNotes/App.tsx";
     });
 }
 function App() {
-    console.log('App is rendering');
-    var isDarkMode = (0, _reactNative.useColorScheme)() === 'dark';
+    console.log('App component rendering');
+    var isDarkMode = (0, _useColorScheme.default)() === 'dark';
     var backgroundStyle = {
-        backgroundColor: isDarkMode ? _NewAppScreen.Colors.darker : _NewAppScreen.Colors.lighter
+        backgroundColor: isDarkMode ? _NewAppScreen.Colors.darker : _NewAppScreen.Colors.lighter,
+        minHeight: '100vh' // Ensure full height on web
     };
-    /*
-   * To keep the template simple and small we're adding padding to prevent view
-   * from rendering under the System UI.
-   * For bigger apps the recommendation is to use `react-native-safe-area-context`:
-   * https://github.com/AppAndFlow/react-native-safe-area-context
-   *
-   * You can read more about it here:
-   * https://github.com/react-native-community/discussions-and-proposals/discussions/827
-   */ var safePadding = '5%';
-    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactNative.View, {
-        style: backgroundStyle,
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_View.default, {
+        style: [
+            backgroundStyle,
+            styles.container
+        ],
         children: [
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactNative.StatusBar, {
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)(_StatusBar.default, {
                 barStyle: isDarkMode ? 'light-content' : 'dark-content',
                 backgroundColor: backgroundStyle.backgroundColor
             }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactNative.ScrollView, {
+            /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_ScrollView.default, {
+                contentInsetAdjustmentBehavior: "automatic",
                 style: backgroundStyle,
                 children: [
-                    /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactNative.View, {
-                        style: {
-                            paddingRight: safePadding
-                        },
-                        children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(_NewAppScreen.Header, {})
-                    }),
-                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_reactNative.View, {
+                    /*#__PURE__*/ (0, _jsxRuntime.jsx)(_NewAppScreen.Header, {}),
+                    /*#__PURE__*/ (0, _jsxRuntime.jsxs)(_View.default, {
                         style: {
                             backgroundColor: isDarkMode ? _NewAppScreen.Colors.black : _NewAppScreen.Colors.white,
-                            paddingHorizontal: safePadding,
-                            paddingBottom: safePadding
+                            padding: 20
                         },
                         children: [
+                            /*#__PURE__*/ (0, _jsxRuntime.jsx)(Section, {
+                                title: "Welcome to SmolVLM Notes",
+                                children: "This is a test message to verify the app is rendering correctly."
+                            }),
                             /*#__PURE__*/ (0, _jsxRuntime.jsxs)(Section, {
                                 title: "Step One",
                                 children: [
                                     "Edit ",
-                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)(_reactNative.Text, {
+                                    /*#__PURE__*/ (0, _jsxRuntime.jsx)(_Text.default, {
                                         style: styles.highlight,
                                         children: "App.tsx"
                                     }),
@@ -794,7 +806,10 @@ function App() {
         ]
     });
 }
-var styles = _reactNative.StyleSheet.create({
+var styles = _StyleSheet.default.create({
+    container: {
+        flex: 1
+    },
     sectionContainer: {
         marginTop: 32,
         paddingHorizontal: 24
@@ -814,10 +829,10 @@ var styles = _reactNative.StyleSheet.create({
 });
 var _default = exports.default = App;
 
-},{"1e1a96014f6a2323":"@babel/runtime/helpers/interopRequireDefault","39dc25d3ba83b6da":"react","57c98a0f153e0bc4":"react-native","35fb6cf91321f785":"react-native/Libraries/NewAppScreen","d2111c58a366f938":"react/jsx-runtime"}],"4fhln":[function(require,module,exports,__globalThis) {
+},{"1e1a96014f6a2323":"@babel/runtime/helpers/interopRequireDefault","39dc25d3ba83b6da":"react","35fb6cf91321f785":"react-native/Libraries/NewAppScreen","d2111c58a366f938":"react/jsx-runtime","709d0b1b662f8b21":"react-native-web/dist/cjs/exports/ScrollView","36a3e9a84eaef43e":"react-native-web/dist/cjs/exports/StatusBar","75d98de699bd7bec":"react-native-web/dist/cjs/exports/StyleSheet","3c24dbd9bb1fc663":"react-native-web/dist/cjs/exports/Text","34965cb57b059890":"react-native-web/dist/cjs/exports/useColorScheme","a407e7a47dc51b14":"react-native-web/dist/cjs/exports/View"}],"4fhln":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"SmolVLMNotes\",\"displayName\":\"SmolVLMNotes\"}");
 
-},{}]},["1V00T","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,})
+},{}]},["dOGyZ","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native-web/dist/cjs/exports/AppRegistry": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,"react-native-web/dist/cjs/exports/ScrollView": __parcelExternal5,"react-native-web/dist/cjs/exports/StatusBar": __parcelExternal6,"react-native-web/dist/cjs/exports/StyleSheet": __parcelExternal7,"react-native-web/dist/cjs/exports/Text": __parcelExternal8,"react-native-web/dist/cjs/exports/useColorScheme": __parcelExternal9,"react-native-web/dist/cjs/exports/View": __parcelExternal10,})
 let {} = parcelRequire875f("6m3dP");
 export {};
 
