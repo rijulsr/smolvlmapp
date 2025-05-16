@@ -1,14 +1,14 @@
 import * as __parcelExternal0 from "@babel/runtime/helpers/interopRequireDefault";
 import * as __parcelExternal1 from "react-native-web/dist/cjs/exports/AppRegistry";
 import * as __parcelExternal2 from "react";
-import * as __parcelExternal3 from "react-native/Libraries/NewAppScreen";
-import * as __parcelExternal4 from "react/jsx-runtime";
-import * as __parcelExternal5 from "react-native-web/dist/cjs/exports/ScrollView";
-import * as __parcelExternal6 from "react-native-web/dist/cjs/exports/StatusBar";
-import * as __parcelExternal7 from "react-native-web/dist/cjs/exports/StyleSheet";
-import * as __parcelExternal8 from "react-native-web/dist/cjs/exports/Text";
-import * as __parcelExternal9 from "react-native-web/dist/cjs/exports/useColorScheme";
-import * as __parcelExternal10 from "react-native-web/dist/cjs/exports/View";
+import * as __parcelExternal3 from "react-native-web/dist/cjs/exports/ScrollView";
+import * as __parcelExternal4 from "react-native-web/dist/cjs/exports/StatusBar";
+import * as __parcelExternal5 from "react-native-web/dist/cjs/exports/StyleSheet";
+import * as __parcelExternal6 from "react-native-web/dist/cjs/exports/Text";
+import * as __parcelExternal7 from "react-native-web/dist/cjs/exports/useColorScheme";
+import * as __parcelExternal8 from "react-native-web/dist/cjs/exports/View";
+import * as __parcelExternal9 from "react-native/Libraries/NewAppScreen";
+import * as __parcelExternal10 from "react/jsx-runtime";
 // modules are defined as an array
 // [ module function, map of requires ]
 //
@@ -171,10 +171,10 @@ import * as __parcelExternal10 from "react-native-web/dist/cjs/exports/View";
       });
     }
   }
-})({"euBBm":[function(require,module,exports,__globalThis) {
+})({"iO2r9":[function(require,module,exports,__globalThis) {
 var HMR_HOST = null;
-var HMR_PORT = 38403;
-var HMR_SERVER_PORT = 38403;
+var HMR_PORT = 38065;
+var HMR_SERVER_PORT = 38065;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4345934e17270304";
 var HMR_USE_SSE = false;
@@ -695,7 +695,7 @@ else _AppRegistry.default.runApplication(_app.name, {
     initialProps: {}
 });
 
-},{"b6efd283c65de705":"@babel/runtime/helpers/interopRequireDefault","53a5538ded9bb502":"cmBae","1efe7dbcdb73507b":"4fhln","afd9367beaa9341e":"react-native-web/dist/cjs/exports/AppRegistry"}],"cmBae":[function(require,module,exports,__globalThis) {
+},{"b6efd283c65de705":"@babel/runtime/helpers/interopRequireDefault","afd9367beaa9341e":"react-native-web/dist/cjs/exports/AppRegistry","53a5538ded9bb502":"cmBae","1efe7dbcdb73507b":"4fhln"}],"cmBae":[function(require,module,exports,__globalThis) {
 var _interopRequireDefault = require("1e1a96014f6a2323");
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -829,10 +829,10 @@ var styles = _StyleSheet.default.create({
 });
 var _default = exports.default = App;
 
-},{"1e1a96014f6a2323":"@babel/runtime/helpers/interopRequireDefault","39dc25d3ba83b6da":"react","35fb6cf91321f785":"react-native/Libraries/NewAppScreen","d2111c58a366f938":"react/jsx-runtime","709d0b1b662f8b21":"react-native-web/dist/cjs/exports/ScrollView","36a3e9a84eaef43e":"react-native-web/dist/cjs/exports/StatusBar","75d98de699bd7bec":"react-native-web/dist/cjs/exports/StyleSheet","3c24dbd9bb1fc663":"react-native-web/dist/cjs/exports/Text","34965cb57b059890":"react-native-web/dist/cjs/exports/useColorScheme","a407e7a47dc51b14":"react-native-web/dist/cjs/exports/View"}],"4fhln":[function(require,module,exports,__globalThis) {
+},{"1e1a96014f6a2323":"@babel/runtime/helpers/interopRequireDefault","39dc25d3ba83b6da":"react","709d0b1b662f8b21":"react-native-web/dist/cjs/exports/ScrollView","36a3e9a84eaef43e":"react-native-web/dist/cjs/exports/StatusBar","75d98de699bd7bec":"react-native-web/dist/cjs/exports/StyleSheet","3c24dbd9bb1fc663":"react-native-web/dist/cjs/exports/Text","34965cb57b059890":"react-native-web/dist/cjs/exports/useColorScheme","a407e7a47dc51b14":"react-native-web/dist/cjs/exports/View","35fb6cf91321f785":"react-native/Libraries/NewAppScreen","d2111c58a366f938":"react/jsx-runtime"}],"4fhln":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"SmolVLMNotes\",\"displayName\":\"SmolVLMNotes\"}");
 
-},{}]},["euBBm","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native-web/dist/cjs/exports/AppRegistry": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,"react-native-web/dist/cjs/exports/ScrollView": __parcelExternal5,"react-native-web/dist/cjs/exports/StatusBar": __parcelExternal6,"react-native-web/dist/cjs/exports/StyleSheet": __parcelExternal7,"react-native-web/dist/cjs/exports/Text": __parcelExternal8,"react-native-web/dist/cjs/exports/useColorScheme": __parcelExternal9,"react-native-web/dist/cjs/exports/View": __parcelExternal10,})
+},{}]},["iO2r9","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native-web/dist/cjs/exports/AppRegistry": __parcelExternal1,"react": __parcelExternal2,"react-native-web/dist/cjs/exports/ScrollView": __parcelExternal3,"react-native-web/dist/cjs/exports/StatusBar": __parcelExternal4,"react-native-web/dist/cjs/exports/StyleSheet": __parcelExternal5,"react-native-web/dist/cjs/exports/Text": __parcelExternal6,"react-native-web/dist/cjs/exports/useColorScheme": __parcelExternal7,"react-native-web/dist/cjs/exports/View": __parcelExternal8,"react-native/Libraries/NewAppScreen": __parcelExternal9,"react/jsx-runtime": __parcelExternal10,})
 let {} = parcelRequire875f("6m3dP");
 export {};
 
