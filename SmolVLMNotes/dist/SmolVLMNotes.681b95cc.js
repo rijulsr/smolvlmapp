@@ -165,10 +165,10 @@ import * as __parcelExternal4 from "react/jsx-runtime";
       });
     }
   }
-})({"dOGyZ":[function(require,module,exports,__globalThis) {
+})({"1V00T":[function(require,module,exports,__globalThis) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
-var HMR_SERVER_PORT = 1234;
+var HMR_PORT = 41511;
+var HMR_SERVER_PORT = 41511;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "4345934e17270304";
 var HMR_USE_SSE = false;
@@ -726,6 +726,7 @@ var _jsxFileName = "/home/rijul/smolvlm/SmolVLMNotes/App.tsx";
     });
 }
 function App() {
+    console.log('App is rendering');
     var isDarkMode = (0, _reactNative.useColorScheme)() === 'dark';
     var backgroundStyle = {
         backgroundColor: isDarkMode ? _NewAppScreen.Colors.darker : _NewAppScreen.Colors.lighter
@@ -816,7 +817,7 @@ var _default = exports.default = App;
 },{"1e1a96014f6a2323":"@babel/runtime/helpers/interopRequireDefault","39dc25d3ba83b6da":"react","57c98a0f153e0bc4":"react-native","35fb6cf91321f785":"react-native/Libraries/NewAppScreen","d2111c58a366f938":"react/jsx-runtime"}],"4fhln":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"SmolVLMNotes\",\"displayName\":\"SmolVLMNotes\"}");
 
-},{}]},["dOGyZ","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,})
+},{}]},["1V00T","6m3dP"], "6m3dP", "parcelRequire875f", {"@babel/runtime/helpers/interopRequireDefault": __parcelExternal0,"react-native": __parcelExternal1,"react": __parcelExternal2,"react-native/Libraries/NewAppScreen": __parcelExternal3,"react/jsx-runtime": __parcelExternal4,})
 let {} = parcelRequire875f("6m3dP");
 export {};
 
