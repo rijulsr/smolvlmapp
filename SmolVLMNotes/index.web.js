@@ -7,15 +7,15 @@ console.log('Initializing app with name:', appName);
 // Register the app
 AppRegistry.registerComponent(appName, () => App);
 
-// Run the app
+// Initialize the app
 const rootTag = document.getElementById('root');
 console.log('Root element:', rootTag);
 
 if (!rootTag) {
-  console.error('Root element not found!');
+  console.error('Root element not found');
 } else {
   AppRegistry.runApplication(appName, {
     rootTag,
-    initialProps: {},
+    initialProps: {}
   });
 } 

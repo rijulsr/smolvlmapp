@@ -22,10 +22,8 @@ module.exports = (async () => {
     },
     resolver: {
       assetExts: assetExts.filter(ext => ext !== 'svg'),
-      sourceExts: [...sourceExts, 'svg'],
-      extraNodeModules: {
-        '@babel/runtime': require.resolve('@babel/runtime'),
-      },
+      sourceExts: [...sourceExts, 'svg', 'web.js', 'web.jsx', 'web.ts', 'web.tsx'],
+      platforms: ['web', 'ios', 'android'],
     },
   };
 })();
