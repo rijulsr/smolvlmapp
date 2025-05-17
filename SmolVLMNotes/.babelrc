@@ -1,10 +1,16 @@
 {
-  "presets": ["module:metro-react-native-babel-preset"],
+  "presets": [
+    ["module:metro-react-native-babel-preset", {
+      "useTransformReactJSXExperimental": true
+    }]
+  ],
   "plugins": [
     ["react-native-web", { "commonjs": true }],
     ["@babel/plugin-transform-runtime", {
       "helpers": true,
-      "regenerator": true
+      "regenerator": true,
+      "absoluteRuntime": false,
+      "version": "7.24.0"
     }]
   ]
 } 
