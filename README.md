@@ -96,7 +96,7 @@ src/
    - Verify camera hardware is working
 
 2. If model download fails:
-   - Check internet connection
+   - Check internet connection💢
    - Verify sufficient storage space
    - Check model path permissions
 
